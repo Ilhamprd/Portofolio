@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Rivera — Full Stack Developer & UI/UX Designer</title>
+  <meta name="description" content="Alex Rivera is a Full Stack Developer and UI/UX Designer crafting bold digital experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">[</span>AR<span class="logo-bracket">]</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <!-- Decorative geometric shapes -->
+    <div class="hero-shape shape-square-1" aria-hidden="true"></div>
+    <div class="hero-shape shape-square-2" aria-hidden="true"></div>
+    <div class="hero-shape shape-circle-1" aria-hidden="true"></div>
+    <div class="hero-shape shape-circle-2" aria-hidden="true"></div>
+    <div class="hero-shape shape-dot-grid" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">AVAILABLE FOR WORK &mdash; 2026</p>
+
+      <h1 class="hero-name">
+        ALEX<br />
+        <span class="hero-name-highlight">RIVERA</span>
+      </h1>
+
+      <div class="hero-role-wrapper">
+        <span class="hero-role-tag">FULL STACK DEV &amp; UI/UX DESIGNER</span>
+      </div>
+
+      <p class="hero-tagline">
+        I build <strong>bold</strong>, <strong>fast</strong>, and <strong>beautiful</strong><br />
+        digital products people actually love to use.
+      </p>
+
+      <div class="hero-typewriter" aria-live="polite">
+        <span class="typewriter-prefix">&gt; </span>
+        <span class="typewriter-text" id="typewriterText"></span>
+        <span class="typewriter-cursor" aria-hidden="true">|</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">VIEW PROJECTS</a>
+        <a href="#" class="btn btn-secondary" download>DOWNLOAD CV</a>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>SCROLL DOWN</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+
+    <div class="hero-badge" aria-hidden="true">
+      <div class="badge-ring">
+        <span>OPEN TO &bull; REMOTE &bull; FREELANCE &bull; FULLTIME &bull;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">
+        <span>02</span> ABOUT ME
+      </div>
+      <h2 class="section-title reveal">WHO AM I?</h2>
+
+      <div class="about-grid">
+        <!-- Left: photo placeholder -->
+        <div class="about-photo-col reveal">
+          <div class="photo-frame">
+            <div class="photo-inner">
+              <div class="photo-pattern" aria-hidden="true"></div>
+              <div class="photo-initials" aria-label="Alex Rivera initials">AR</div>
+            </div>
+            <div class="photo-tag">ALEX RIVERA</div>
+          </div>
+
+          <div class="photo-decoration" aria-hidden="true">
+            <div class="deco-square"></div>
+            <div class="deco-circle"></div>
+          </div>
+        </div>
+
+        <!-- Right: about text -->
+        <div class="about-text-col">
+          <p class="about-intro reveal">
+            Hey! I&rsquo;m Alex, a Full Stack Developer and UI/UX Designer based in
+            <strong>San Francisco, CA</strong>. I specialize in building performant,
+            accessible web applications with a sharp eye for design.
+          </p>
+          <p class="about-body reveal">
+            With over 5 years of experience across startups and agencies, I&rsquo;ve shipped
+            products used by thousands of people. I love the intersection of <strong>engineering
+            and design</strong> &mdash; writing clean code that looks stunning and feels effortless.
+          </p>
+          <p class="about-body reveal">
+            When I&rsquo;m not at my desk, I&rsquo;m hiking trails, tinkering with retro hardware,
+            or hunting for the perfect cup of coffee.
+          </p>
+
+          <!-- Stats grid -->
+          <div class="stats-grid reveal">
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">YEARS EXP.</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">40+</span>
+              <span class="stat-label">PROJECTS DONE</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">18</span>
+              <span class="stat-label">HAPPY CLIENTS</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3</span>
+              <span class="stat-label">AWARDS WON</span>
+            </div>
+          </div>
+
+          <div class="about-actions reveal">
+            <a href="#contact" class="btn btn-primary">LET'S TALK</a>
+            <a href="#" class="btn btn-outline" download>GET MY CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label">
+        <span>03</span> SKILLS
+      </div>
+      <h2 class="section-title reveal">WHAT I WORK WITH</h2>
+      <p class="section-subtitle reveal">
+        A handpicked set of tools and technologies I use to build great products.
+      </p>
+
+      <div class="skills-grid">
+        <!-- Skill cards -->
+        <div class="skill-card reveal" style="--card-color: var(--yellow);">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="skill-name">HTML / CSS</h3>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--bar-width: 95%;" data-level="95"></div>
+          </div>
+          <span class="skill-level">95%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--coral);">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="skill-name">JAVASCRIPT</h3>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--bar-width: 90%;" data-level="90"></div>
+          </div>
+          <span class="skill-level">90%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--blue);">
+          <div class="skill-icon skill-icon--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="skill-name skill-name--light">REACT</h3>
+          <div class="skill-bar-wrap skill-bar-wrap--light">
+            <div class="skill-bar skill-bar--light" style="--bar-width: 88%;" data-level="88"></div>
+          </div>
+          <span class="skill-level skill-level--light">88%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--lime);">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="0"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3 class="skill-name">NODE.JS</h3>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--bar-width: 82%;" data-level="82"></div>
+          </div>
+          <span class="skill-level">82%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--pink);">
+          <div class="skill-icon skill-icon--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <h3 class="skill-name skill-name--light">PYTHON</h3>
+          <div class="skill-bar-wrap skill-bar-wrap--light">
+            <div class="skill-bar skill-bar--light" style="--bar-width: 78%;" data-level="78"></div>
+          </div>
+          <span class="skill-level skill-level--light">78%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--yellow);">
+          <div class="skill-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3 class="skill-name">POSTGRESQL</h3>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="--bar-width: 75%;" data-level="75"></div>
+          </div>
+          <span class="skill-level">75%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--coral);">
+          <div class="skill-icon skill-icon--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l-1 3h-3l2.5 2-1 3L12 8l2.5 2-1-3L16 5h-3z"/><circle cx="12" cy="14" r="6"/></svg>
+          </div>
+          <h3 class="skill-name skill-name--light">FIGMA</h3>
+          <div class="skill-bar-wrap skill-bar-wrap--light">
+            <div class="skill-bar skill-bar--light" style="--bar-width: 92%;" data-level="92"></div>
+          </div>
+          <span class="skill-level skill-level--light">92%</span>
+        </div>
+
+        <div class="skill-card reveal" style="--card-color: var(--blue);">
+          <div class="skill-icon skill-icon--light" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/></svg>
+          </div>
+          <h3 class="skill-name skill-name--light">GIT</h3>
+          <div class="skill-bar-wrap skill-bar-wrap--light">
+            <div class="skill-bar skill-bar--light" style="--bar-width: 88%;" data-level="88"></div>
+          </div>
+          <span class="skill-level skill-level--light">88%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label">
+        <span>04</span> PROJECTS
+      </div>
+      <h2 class="section-title reveal">SELECTED WORK</h2>
+      <p class="section-subtitle reveal">
+        A few projects I'm proud of. Each one taught me something new.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal" style="--project-color: var(--yellow);">
+          <div class="project-image" style="background-color: var(--yellow);" aria-label="NovaMart project mockup">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-screen">
+                  <div class="mockup-line short"></div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-grid">
+                    <div class="mockup-card-sm"></div>
+                    <div class="mockup-card-sm"></div>
+                    <div class="mockup-card-sm"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">01</div>
+            <h3 class="project-title">NOVAMART</h3>
+            <p class="project-desc">
+              A full-stack e-commerce platform with real-time inventory, Stripe payments,
+              and an admin dashboard. Built for a fashion retailer serving 5K+ monthly orders.
+            </p>
+            <div class="project-tags">
+              <span class="tag">REACT</span>
+              <span class="tag">NODE.JS</span>
+              <span class="tag">POSTGRESQL</span>
+              <span class="tag">STRIPE</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary">VIEW LIVE</a>
+              <a href="#" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GITHUB
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal" style="--project-color: var(--blue);">
+          <div class="project-image" style="background-color: var(--blue);" aria-label="TaskFlow project mockup">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-screen mockup-screen--dark">
+                  <div class="mockup-columns">
+                    <div class="mockup-col">
+                      <div class="mockup-col-header"></div>
+                      <div class="mockup-task"></div>
+                      <div class="mockup-task"></div>
+                    </div>
+                    <div class="mockup-col">
+                      <div class="mockup-col-header"></div>
+                      <div class="mockup-task"></div>
+                    </div>
+                    <div class="mockup-col">
+                      <div class="mockup-col-header"></div>
+                      <div class="mockup-task"></div>
+                      <div class="mockup-task"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">02</div>
+            <h3 class="project-title">TASKFLOW</h3>
+            <p class="project-desc">
+              A collaborative Kanban board app with drag-and-drop, real-time updates via WebSockets,
+              team workspaces, and productivity analytics. Used by 200+ teams.
+            </p>
+            <div class="project-tags">
+              <span class="tag">REACT</span>
+              <span class="tag">WEBSOCKETS</span>
+              <span class="tag">EXPRESS</span>
+              <span class="tag">MONGODB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary">VIEW LIVE</a>
+              <a href="#" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GITHUB
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal" style="--project-color: var(--lime);">
+          <div class="project-image" style="background-color: var(--lime);" aria-label="PulseAI project mockup">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-screen">
+                  <div class="mockup-chart">
+                    <div class="mockup-bar-chart">
+                      <div class="chart-bar" style="height: 40%"></div>
+                      <div class="chart-bar" style="height: 65%"></div>
+                      <div class="chart-bar" style="height: 50%"></div>
+                      <div class="chart-bar" style="height: 80%"></div>
+                      <div class="chart-bar" style="height: 60%"></div>
+                      <div class="chart-bar" style="height: 90%"></div>
+                    </div>
+                    <div class="mockup-line"></div>
+                    <div class="mockup-line short"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">03</div>
+            <h3 class="project-title">PULSE AI</h3>
+            <p class="project-desc">
+              A SaaS analytics dashboard with AI-powered insights, custom chart builder,
+              CSV data import, and email digests. Integrates with 10+ data sources.
+            </p>
+            <div class="project-tags">
+              <span class="tag">NEXT.JS</span>
+              <span class="tag">PYTHON</span>
+              <span class="tag">OPENAI</span>
+              <span class="tag">REDIS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary">VIEW LIVE</a>
+              <a href="#" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GITHUB
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal" style="--project-color: var(--pink);">
+          <div class="project-image" style="background-color: var(--pink);" aria-label="CraftCMS project mockup">
+            <div class="project-mockup">
+              <div class="mockup-browser">
+                <div class="mockup-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup-screen mockup-screen--light">
+                  <div class="mockup-hero-block"></div>
+                  <div class="mockup-line"></div>
+                  <div class="mockup-line short"></div>
+                  <div class="mockup-btn-row">
+                    <div class="mockup-btn"></div>
+                    <div class="mockup-btn"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">04</div>
+            <h3 class="project-title">CRAFTCMS</h3>
+            <p class="project-desc">
+              A headless CMS for creative agencies. Features a drag-and-drop page builder,
+              multi-language support, CDN-backed media storage, and GraphQL API.
+            </p>
+            <div class="project-tags">
+              <span class="tag">TYPESCRIPT</span>
+              <span class="tag">GRAPHQL</span>
+              <span class="tag">POSTGRESQL</span>
+              <span class="tag">AWS S3</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary">VIEW LIVE</a>
+              <a href="#" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GITHUB
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">
+        <span>05</span> CONTACT
+      </div>
+      <h2 class="section-title reveal">LET'S WORK TOGETHER</h2>
+      <p class="section-subtitle reveal">
+        Got a project in mind? Let's make something great. I'm currently available for freelance and full-time roles.
+      </p>
+
+      <div class="contact-grid">
+        <!-- Contact info -->
+        <div class="contact-info reveal">
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">GET IN TOUCH</h3>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">EMAIL</span>
+                  <a href="mailto:hello@alexrivera.dev" class="contact-value">hello@alexrivera.dev</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">LOCATION</span>
+                  <span class="contact-value">San Francisco, CA &mdash; Remote OK</span>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">RESPONSE TIME</span>
+                  <span class="contact-value">Within 24 hours</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+              </a>
+              <a href="mailto:hello@alexrivera.dev" class="social-link" aria-label="Send email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form-col reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="formName">YOUR NAME *</label>
+              <input
+                type="text"
+                id="formName"
+                name="name"
+                class="form-input"
+                placeholder="Jane Doe"
+                autocomplete="name"
+                required
+              />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formEmail">EMAIL ADDRESS *</label>
+              <input
+                type="email"
+                id="formEmail"
+                name="email"
+                class="form-input"
+                placeholder="jane@example.com"
+                autocomplete="email"
+                required
+              />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formSubject">SUBJECT *</label>
+              <input
+                type="text"
+                id="formSubject"
+                name="subject"
+                class="form-input"
+                placeholder="Project inquiry"
+                required
+              />
+              <span class="form-error" id="subjectError" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="formMessage">MESSAGE *</label>
+              <textarea
+                id="formMessage"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="Tell me about your project..."
+                rows="5"
+                required
+              ></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="formSubmit">
+              SEND MESSAGE
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="24" height="24"><polyline points="20 6 9 17 4 12"/></svg>
+              Message sent! I'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-bracket">[</span>AR<span class="logo-bracket">]</span>
+          </a>
+          <p class="footer-tagline">Building bold digital experiences, one pixel at a time.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <p class="footer-social-label">FOLLOW ME</p>
+          <div class="footer-social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Alex Rivera. All rights reserved.</p>
+        <p>Designed &amp; built with <span aria-label="love">&#10084;</span> &amp; vanilla JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="24" height="24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
